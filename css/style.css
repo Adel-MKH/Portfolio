@@ -85,6 +85,13 @@ h2.occupation {
     margin-bottom: 20px;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75
+}
 
 ul {
     padding-left: 0;
@@ -153,6 +160,11 @@ a.resume:hover {
     background-color: #e0e07d;
 }
 
+.bg_blue {
+  background-color: #cfd7e6;
+  /* background-color: #1f497d; */
+}
+
 .color_yellow {
     color: #e0e07d;
 }
@@ -164,6 +176,7 @@ div.about {
 
 div.about p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 div.about a {
@@ -184,7 +197,7 @@ aside {
 aside ul li {
     list-style: none;
     font-family: 'Open Sans', sans-serif;
-
+    font-size: 1.25rem;
 
 }
 
@@ -201,6 +214,8 @@ aside i {
 div.education {
     background: #e0e07d;
     color: black;
+    padding: 2.2rem 2rem;
+
 }
 
 div.education a {
@@ -214,6 +229,7 @@ div.education i {
 
 div.bg_blue {
     background: #cfd7e6;
+    padding: 2.2rem 2rem;
 }
 
 .title-dark {
@@ -264,169 +280,4 @@ label {
 span {
     color: #eeeeee;
     font-family: 'Open Sans', sans-serif;
-
-}
-
-
-
-@-webkit-keyframes bounceInLeft {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-3000px, 0, 0);
-    transform: translate3d(-3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(25px, 0, 0);
-    transform: translate3d(25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(5px, 0, 0);
-    transform: translate3d(5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes bounceInLeft {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-3000px, 0, 0);
-    transform: translate3d(-3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(25px, 0, 0);
-    transform: translate3d(25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(5px, 0, 0);
-    transform: translate3d(5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.bounceInLeft {
-  -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
-}
-
-@-webkit-keyframes bounceInRight {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(-25px, 0, 0);
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(-5px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes bounceInRight {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(-25px, 0, 0);
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(-5px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.bounceInRight {
-  -webkit-animation-name: bounceInRight;
-  animation-name: bounceInRight;
 }
